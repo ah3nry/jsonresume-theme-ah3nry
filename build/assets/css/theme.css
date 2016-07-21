@@ -224,11 +224,11 @@
 }
 .label-keyword {
   display: inline-block;
-  background: #7eb0db;
+  background: #f87b5f;
   color: white;
   font-size: 0.9em;
   padding: 5px;
-  border: 1px solid #357ebd;
+  border: 1px solid #e7330a;
   margin-right: 5px;
 }
 .label-keyword:last-child {
@@ -275,6 +275,14 @@ body {
   font-family: 'Lato';
   background: #f0f0f0;
   color: #333333;
+  font-size: 15px;
+}
+a {
+  color: #b6452f;
+}
+a:focus,
+a:hover {
+  color: #b62808;
 }
 .main {
   padding: 5px;
@@ -394,7 +402,7 @@ body {
 }
 .current-event {
   font-size: 8px;
-  color: #5ACE24;
+  color: #b9d04f;
   position: absolute;
   right: 100%;
   top: 4px;
@@ -419,7 +427,7 @@ body {
   text-align: center;
   background-color: white;
   font-size: 1.5em;
-  color: #357ebd;
+  color: #851d06;
   z-index: 100;
   position: fixed;
   bottom: 10px;
@@ -435,7 +443,7 @@ body {
   display: none;
 }
 .floating-nav-trigger:hover {
-  color: #1f496e;
+  color: #230802;
   background-color: #e6e6e6;
 }
 .floating-nav-trigger.is-open {
@@ -485,11 +493,11 @@ body {
 .floating-nav ul li a {
   padding: 20px;
   text-decoration: none;
-  color: #357ebd;
+  color: #e7330a;
   display: block;
 }
 .floating-nav ul li a:hover {
-  color: #1f496e;
+  color: #851d06;
 }
 .floating-nav ul li:last-child {
   border-bottom: 0;
@@ -548,7 +556,7 @@ body {
   }
 }
 .contact-details .detail .info {
-  font-size: 0.8em;
+  font-size: 12px;
 }
 .contact-details .detail .icon,
 .contact-details .detail .info {
@@ -867,7 +875,7 @@ body {
 }
 .skill-level .skill-progress.advanced {
   height: 80%;
-  background: #428bca;
+  background: #b62808;
 }
 .skill-level .skill-progress.master {
   height: 95%;
