@@ -224,11 +224,11 @@
 }
 .label-keyword {
   display: inline-block;
-  background: #f87b5f;
+  background: #f76747;
   color: white;
   font-size: 0.9em;
   padding: 5px;
-  border: 1px solid #e7330a;
+  border: 1px solid #ce2d09;
   margin-right: 5px;
 }
 .label-keyword:last-child {
@@ -493,11 +493,11 @@ a:hover {
 .floating-nav ul li a {
   padding: 20px;
   text-decoration: none;
-  color: #e7330a;
+  color: #ce2d09;
   display: block;
 }
 .floating-nav ul li a:hover {
-  color: #851d06;
+  color: #6d1805;
 }
 .floating-nav ul li:last-child {
   border-bottom: 0;
