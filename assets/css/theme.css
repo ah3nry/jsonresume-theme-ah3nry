@@ -903,13 +903,14 @@ a:hover {
   }
   .profile-card {
     text-align: center;
+    min-height: 250px;
   }
   .profile-pic {
     display: inline-block;
     vertical-align: middle;
   }
   .profile-pic img {
-    border-radius: 0;
+    border-radius: 50%;
   }
   .name-and-profession {
     display: inline-block;
@@ -919,7 +920,7 @@ a:hover {
   .contact-details .detail {
     position: relative;
     float: left;
-    width: 25%;
+    width: 33.33333333%;
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px;
